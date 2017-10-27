@@ -1,0 +1,8 @@
+
+*.svn-work
+
+*.svn-base
+
+bin/
+
+*.svn

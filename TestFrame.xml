@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_144" class="java.beans.XMLDecoder">
+ <object class="gui.NetBuilderFrame" id="NetBuilderFrame0">
+  <void property="bounds">
+   <object class="java.awt.Rectangle" id="Rectangle0">
+    <void class="java.awt.Rectangle" method="getField">
+     <string>x</string>
+     <void method="set">
+      <object idref="Rectangle0"/>
+      <int>-8</int>
+     </void>
+    </void>
+    <void class="java.awt.Rectangle" method="getField">
+     <string>y</string>
+     <void method="set">
+      <object idref="Rectangle0"/>
+      <int>-8</int>
+     </void>
+    </void>
+    <void class="java.awt.Rectangle" method="getField">
+     <string>width</string>
+     <void method="set">
+      <object idref="Rectangle0"/>
+      <int>1936</int>
+     </void>
+    </void>
+    <void class="java.awt.Rectangle" method="getField">
+     <string>height</string>
+     <void method="set">
+      <object idref="Rectangle0"/>
+      <int>1176</int>
+     </void>
+    </void>
+   </object>
+  </void>
+  <void property="visible">
+   <boolean>true</boolean>
+  </void>
+  <void id="MasterMenu0" property="JMenuBar">
+   <void property="size">
+    <object class="java.awt.Dimension" id="Dimension0">
+     <void class="java.awt.Dimension" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Dimension0"/>
+       <int>1920</int>
+      </void>
+     </void>
+     <void class="java.awt.Dimension" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Dimension0"/>
+       <int>21</int>
+      </void>
+     </void>
+    </object>
+   </void>
+   <void property="selectionModel">
+    <void property="selectedIndex">
+     <int>0</int>
+    </void>
+   </void>
+  </void>
+  <void id="BuilderPanel0" property="builderPanel">
+   <void id="Foundation0" property="foundation">
+    <void method="add">
+     <object class="gui.BaseDevice" id="BaseDevice0">
+      <void property="location">
+       <object class="java.awt.Point" id="Point0">
+        <void class="java.awt.Point" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Point0"/>
+          <int>50</int>
+         </void>
+        </void>
+        <void class="java.awt.Point" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Point0"/>
+          <int>100</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="gui.BaseConnector" id="BaseConnector0">
+        <void property="maxLinks">
+         <int>1</int>
+        </void>
+        <void property="myDescriptor">
+         <object class="gui.Descriptor">
+          <void property="myBrandName">
+           <string>1Port100MBps</string>
+          </void>
+          <void property="myCost">
+           <double>25.0</double>
+          </void>
+          <void property="mySubTypeID">
+           <int>16</int>
+          </void>
+          <void property="myTypeID">
+           <int>3</int>
+          </void>
+         </object>
+        </void>
+        <void property="myDevice">
+         <object idref="BaseDevice0"/>
+        </void>
+       </object>
+      </void>
+      <void property="myConnectors">
+       <void method="add">
+        <object idref="BaseConnector0"/>
+       </void>
+      </void>
+      <void property="myCost">
+       <double>25.0</double>
+      </void>
+      <void property="myDescriptor">
+       <object class="gui.Descriptor">
+        <void property="myBrandName">
+         <string>Desktop</string>
+        </void>
+        <void property="myCost">
+         <double>1500.0</double>
+        </void>
+        <void property="mySubTypeID">
+         <int>1</int>
+        </void>
+        <void property="myTypeID">
+         <int>1</int>
+        </void>
+       </object>
+      </void>
+      <void property="myFoundation">
+       <object idref="Foundation0"/>
+      </void>
+      <void property="myName">
+       <string>th452a</string>
+      </void>
+      <void property="netDevice">
+       <object class="network.Source" id="Source0">
+        <void property="name">
+         <string>th452a</string>
+        </void>
+        <void property="numberOfPacketsToGenerate">
+         <int>2</int>
+        </void>
+       </object>
+      </void>
+      <void property="numConnectors">
+       <int>1</int>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="gui.BaseDevice" id="BaseDevice1">
+      <void property="location">
+       <object class="java.awt.Point" id="Point1">
+        <void class="java.awt.Point" method="getField">
+         <string>x</string>
+         <void method="set">
+          <object idref="Point1"/>
+          <int>180</int>
+         </void>
+        </void>
+        <void class="java.awt.Point" method="getField">
+         <string>y</string>
+         <void method="set">
+          <object idref="Point1"/>
+          <int>100</int>
+         </void>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="gui.BaseConnector" id="BaseConnector1">
+        <void property="maxLinks">
+         <int>16</int>
+        </void>
+        <void property="myDescriptor">
+         <object class="gui.Descriptor">
+          <void property="myBrandName">
+           <string>16Port100MBps</string>
+          </void>
+          <void property="myCost">
+           <double>250.0</double>
+          </void>
+          <void property="mySubTypeID">
+           <int>16</int>
+          </void>
+          <void property="myTypeID">
+           <int>3</int>
+          </void>
+         </object>
+        </void>
+        <void property="myDevice">
+         <object idref="BaseDevice1"/>
+        </void>
+       </object>
+      </void>
+      <void property="myConnectors">
+       <void method="add">
+        <object idref="BaseConnector1"/>
+       </void>
+      </void>
+      <void property="myCost">
+       <double>250.0</double>
+      </void>
+      <void property="myDescriptor">
+       <object class="gui.Descriptor">
+        <void property="myBrandName">
+         <string>Router</string>
+        </void>
+        <void property="myCost">
+         <double>500.0</double>
+        </void>
+        <void property="mySubTypeID">
+         <int>3</int>
+        </void>
+        <void property="myTypeID">
+         <int>1</int>
+        </void>
+       </object>
+      </void>
+      <void property="myFoundation">
+       <object idref="Foundation0"/>
+      </void>
+      <void property="myName">
+       <string>Router1</string>
+      </void>
+      <void property="netDevice">
+       <object class="network.Router" id="Router0">
+        <void property="name">
+         <string>Router1</string>
+        </void>
+       </object>
+      </void>
+      <void property="numConnectors">
+       <int>1</int>
+      </void>
+     </object>
+    </void>
+   </void>
+  </void>
+  <void property="contentPane">
+   <void property="bounds">
+    <object class="java.awt.Rectangle" id="Rectangle1">
+     <void class="java.awt.Rectangle" method="getField">
+      <string>y</string>
+      <void method="set">
+       <object idref="Rectangle1"/>
+       <int>21</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>width</string>
+      <void method="set">
+       <object idref="Rectangle1"/>
+       <int>1920</int>
+      </void>
+     </void>
+     <void class="java.awt.Rectangle" method="getField">
+      <string>height</string>
+      <void method="set">
+       <object idref="Rectangle1"/>
+       <int>1116</int>
+      </void>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="extendedState">
+   <int>6</int>
+  </void>
+  <void id="Dimension1" property="minimumSize">
+   <void class="java.awt.Dimension" method="getField">
+    <string>width</string>
+    <void method="set">
+     <object idref="Dimension1"/>
+     <int>442</int>
+    </void>
+   </void>
+   <void class="java.awt.Dimension" method="getField">
+    <string>height</string>
+    <void method="set">
+     <object idref="Dimension1"/>
+     <int>485</int>
+    </void>
+   </void>
+  </void>
+  <void property="minimumSize">
+   <object idref="Dimension1"/>
+  </void>
+  <void property="name">
+   <string>frame0</string>
+  </void>
+  <void property="network">
+   <object class="network.Network" id="Network0">
+    <void property="routers">
+     <void method="add">
+      <object idref="Router0"/>
+     </void>
+    </void>
+    <void property="sources">
+     <void method="add">
+      <object idref="Source0"/>
+     </void>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
